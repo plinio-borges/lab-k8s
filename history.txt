@@ -1,0 +1,991 @@
+    1  ls
+    2  pwd
+    3  sudo su -
+    4  sudo bash
+    5  whoami
+    6  ls
+    7  cd
+    8  pwd
+    9  mkdir projetos
+   10  cd projetos
+   11  cd ..
+   12  touch /.token
+   13  cd projetos/
+   14  sudo apt install gh -y
+   15  gh
+   16  cd ..
+   17  nano /.token
+   18  git
+   19  sudo apt install git
+   20  git
+   21  sudo bash
+   22  pwd
+   23  cat /.token
+   24  cd projetos
+   25  cd /.token
+   26  cat ~/.token
+   27  cd ..
+   28  ls
+   29  ls -lah
+   30  pwd
+   31  cd ..
+   32  ls
+   33  ls -lah
+   34  cd admin/
+   35  ls
+   36  ls -lh
+   37  cat .tokne
+   38  cat .token
+   39  cat /.token
+   40  cd projetos/
+   41  cat ~/.token
+   42  cd .
+   43  cd ..
+   44  cat /.token
+   45  cat /home/admin/.token
+   46  cd ..
+   47  cd admin/
+   48  cat /.token
+   49  cd /
+   50  ls
+   51  ls -alh
+   52  sudo bash
+   53  ls
+   54  cd
+   55  ls
+   56  touch /
+   57  touch .token
+   58  cat .token 
+   59  nano ~/.token 
+   60  cd projetos/
+   61  git clone https://github.com/plinio-borges/pythonprj.git
+   62  ls
+   63  git clone https://github.com/plinio-borges/shellscripts.git
+   64  ls
+   65  cd pythonprj/
+   66  ls
+   67  git status
+   68  chmod +x recon_resultado.json 
+   69  git status
+   70  git add .
+   71  git commit -m "teste de alteração de exec no .json"
+   72  git config --global "plinio-borges"
+   73  git config --global user.name "plinio-borges"
+   74  git commit -m "teste de alteração de exec no .json"
+   75  git config --global user.email "plinioborges@1.com"
+   76  git commit -m "teste de alteração de exec no .json"
+   77  git push
+   78  git status
+   79  ls
+   80  python3 servicos.py 
+   81  python3 recon_resultado.json
+   82  ./recon_resultado.json 
+   83  chmod -x recon_resultado.json 
+   84  ls
+   85  git status
+   86  sudo passwd admin
+   87  pwd
+   88  cd
+   89  cd projetos
+   90  scp admin@54.159.49.137:/tmp/app.zip /home/admin/projetos
+   91  ls
+   92  unzip app.zip 
+   93  apt install zip
+   94  sudo apt install zip
+   95  unzip app.zip 
+   96  ls
+   97  apt install gitleaks
+   98  sudo apt install gitleaks
+   99  ls
+  100  cd app
+  101  ls
+  102  pip install bandit
+  103  sudo apt install bandit
+  104  banti
+  105  bandit
+  106  sudo apt install pip
+  107  pip
+  108  ls -l
+  109  chmod +x *.py
+  110  ls -lh
+  111  cat env
+  112  gh auth login
+  113  ls
+  114  ls -a
+  115  cat gitignore 
+  116  cd ..
+  117  ls
+  118  cd ..
+  119  ls -lah
+  120  cat token
+  121  cat .token 
+  122  cd projetos/
+  123  ls
+  124  cd app
+  125  ls
+  126  ls -lah
+  127  git auth status
+  128  gh auth status
+  129  gh auth setup-git
+  130  cat ~/.config/gh/hosts.yml
+  131  cat ~/.token
+  132  sudo apt install semgrep
+  133  sudo pip install semgrep
+  134  git init
+  135  git default-branch main
+  136  git config init.defaultBranch main
+  137  git branch -m main
+  138  git status
+  139  cat gitignore 
+  140  mv gitignore .gitignore
+  141  ls
+  142  cat env
+  143  mv env .env
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "adicionado todos os arquivos ao repo"
+  148  gitleaks
+  149  gitleaks --source string --verbose
+  150  gitleaks detect --source . --verbose
+  151  bandit -r
+  152  semgrep scan --config auto  .
+  153  pip install semgrep
+  154  sudo apt install python3.13-venv
+  155  python3 -m venv .venv
+  156  source .venv/bin/activate
+  157  pip install semgrep
+  158  semgrep
+  159  semgrep scan --config auto .
+  160  cd ..
+  161  ls
+  162  cd pythonprj/
+  163  semgrep scan --config auto .
+  164  gitleaks
+  165  gitleaks detect --source . --verbose
+  166  bandit --version
+  167  bandit -r .
+  168  cd ..
+  169  ls
+  170  cd app
+  171  bandit -r .
+  172  history
+  173  semgrep login
+  174  bandit -r .
+  175  cat ~/.semgrep/settings.yml 
+  176  history
+  177  semgrep scan --config auto .
+  178  nano vuln.py
+  179  chmod +x vuln.py 
+  180  ./vuln.py 
+  181  nano vuln.py
+  182  ./vuln.py 
+  183  semgrep scan --config auto vuln.py 
+  184  mkdir rules
+  185  nano rules/psec.yml
+  186  semgrep --config=rules/psec.yml vuln.py
+  187  nano rules/psec.yml
+  188  semgrep --config=rules/psec.yml vuln.py
+  189  cat vuln.py
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd app
+  194  ls
+  195  cd rules/
+  196  ls
+  197  cat psec.yml 
+  198  nano psec.yml 
+  199  nano inject.yml
+  200  nano app.yml
+  201  cat app.yml 
+  202  semgrep --config=rules/app.yml vuln.py
+  203  cd ..
+  204  semgrep --config=rules/app.yml vuln.py
+  205  semgrep ci
+  206  ls
+  207  history
+  208  sudo bash
+  209  cd projetos/
+  210  cd app
+  211  ls
+  212  git status
+  213  git add .
+  214  git commit -m "Adicionado rules/ e vuln.py"
+  215  git push
+  216  git status
+  217  git remote add origin https://github.com/plinio-borges/appvuln.git
+  218  git branch -M main
+  219  git push -u origin main
+  220  w
+  221  y
+  222  x
+  223  c
+  224  d
+  225  e
+  226  f
+  227  b
+  228  c
+  229  ls -l
+  230  mkdir -pv .github/workflows
+  231  mkdir
+  232  mkdir --help
+  233  mv sat.yml .github/workflows/
+  234  mv sast.yml .github/workflows/
+  235  ls -la
+  236  cd .github/workflows/
+  237  nano sast.yml 
+  238  cd ../..
+  239  ls
+  240  source venv/bin/activate
+  241  history
+  242  pythom3 -m venv venv
+  243  venv
+  244  source .venv/bin/activate
+  245  bandit
+  246  bandit -r .
+  247  sudo apt install bandit
+  248  pip install pre-commit
+  249  nano .pre-commit-config.yaml
+  250  cat .pre-commit-config.yaml 
+  251  ls -alh
+  252  cat .pre-commit-config.yaml 
+  253  nano .pre-commit-config.yaml
+  254  quit
+  255  exit
+  256  source .venv/bin/activate
+  257  python3 -m venv venv
+  258  source .venv/bin/activate
+  259  venv
+  260  history 
+  261  source venv/bin/activate
+  262  pre-commit install
+  263  nano .pre-commit-config.yaml
+  264  pre-commit install
+  265  pip install pre-commit
+  266  ls -alh
+  267  cat .pre-commit-config.yaml 
+  268  pre-commit install
+  269  cat ~/.cache/pre-commit/pre-commit.log 
+  270  pre-commit install
+  271  ls
+  272  cd projetos/
+  273  ls
+  274  cd app
+  275  ls
+  276  pre-commit install
+  277  nano config.py 
+  278  git status
+  279  git ass .
+  280  git add .
+  281  git status
+  282  git commit -m "criado Workfles e o Pre-Commit"
+  283  pip install pbr
+  284  git status
+  285  git commit -m "criado Workfles e o Pre-Commit"
+  286  pbr 
+  287  pbr -v
+  288  python -m pip install --upgrade pip setuptools wheel
+  289  git commit -m "criado Workfles e o Pre-Commit"
+  290  deactivate
+  291  sudo apt install python3-pbr
+  292  git commit -m "criado Workfles e o Pre-Commit"
+  293  python3 -m pip install --user pbr
+  294  source .venv/bin/activate
+  295  python3 -m pip install --user pbr
+  296  git commit -m "criado Workfles e o Pre-Commit"
+  297  sudo apt update
+  298  deactivate
+  299  python3 -m pip install --user pbr
+  300  source venv/bin/activate
+  301  source .venv/bin/activate
+  302  pip install bandit
+  303  git commit -m "criado Workfles e o Pre-Commit"
+  304  nano .pre-commit-config.yaml 
+  305  git commit -m "criado Workfles e o Pre-Commit"
+  306  git add .pre-commit-config.yaml 
+  307  git commit -m "criado Workfles e o Pre-Commit"
+  308  pre-commit clean
+  309  pre-commit install
+  310  pre-commit run --all-files
+  311  git add .
+  312  git commit -m "criado Workfles e o Pre-Commit"
+  313  mv .pre-commit-config.yaml ~/
+  314  pre-commit clean
+  315  git commit -m "criado Workfles e o Pre-Commit"
+  316  cat ~/.pre-commit-config.yaml 
+  317  pre-commit uninstall
+  318  git commit -m "criado Workfles e o Pre-Commit"
+  319  cd .github/workflows/
+  320  ls
+  321  nano sast.yml 
+  322  cd ../..
+  323  history
+  324  pwd
+  325  git push
+  326  sudo poweroff
+  327  ls
+  328  cd
+  329  whoami
+  330  pwd
+  331  ls -la
+  332  cd projetos/app
+  333  la
+  334  ls
+  335  cat requirements.txt 
+  336  cat ~/.sudo_as_admin_successful 
+  337  cat ~/.pre-commit-config.yaml 
+  338  ls -al
+  339  cd .venv
+  340  ls
+  341  ls -al
+  342  cat pyvenv.cfg 
+  343  cat .gitignore 
+  344  cd ..
+  345  ls
+  346  cd rules/
+  347  ls
+  348  cat app.yml 
+  349  ls
+  350  cat inject.yml 
+  351  cat psec.yml 
+  352  ls
+  353  cd ..
+  354  ls
+  355  curl -fsSL https://get.docker.com -o get-docker.sh
+  356  sudo sh ./get-docker.sh
+  357  sudo su-
+  358  sudo su -
+  359  docker container prune
+  360  docker container prune -a
+  361  sudo docker container prune
+  362  df -hT
+  363  su - admin
+  364  cd ~/projetos/vulnapp/
+  365  ls
+  366  cat Dockerfile 
+  367  cd app
+  368  ls
+  369  cd ..
+  370  git branch -M dast
+  371  git status
+  372  ls
+  373  cd ..
+  374  ls
+  375  git status
+  376  cd app
+  377  ls
+  378  git status
+  379  git branch -M dast
+  380  git status
+  381  git add .
+  382  git commit -m "arquivos faltantes"
+  383  git push
+  384  git push origin HEAD:dast
+  385  cd ..
+  386  ls
+  387  cd vulnapp
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd vulnapp/
+  392  git status
+  393  cd ..
+  394  cd app
+  395  ls
+  396  git status
+  397  c ..
+  398  cd ..
+  399  ls
+  400  cd vulnapp
+  401  git init
+  402  git branch -m dast
+  403  git status
+  404  git add .
+  405  git commit -m "Dockerfile e app"
+  406  git push
+  407  git push -u origin dast
+  408  git push -u dast
+  409  git push --set-upstream dast dast
+  410  git status
+  411  git push -u origin dast
+  412  git push -u plinio-borges dast
+  413  git push -u origin dast
+  414  ls
+  415  cd app
+  416  ls
+  417  git status
+  418  git init
+  419  git branch -m dast
+  420  git status
+  421  git add .
+  422  git commit -m ".env app.py e backup"
+  423  git push
+  424  git push -u origin dast
+  425  git push -u dast
+  426  git init
+  427  git branch -m dast
+  428  git add .
+  429  git commit -m ".env app.py e backup"
+  430  git push -u dast
+  431  git push --set-upstream dast dast
+  432  git push --set-upstream dast
+  433  ls
+  434  cd ..
+  435  ls
+  436  git status
+  437  git pusch
+  438  git push
+  439  git push plinio-borges
+  440  git push --set-upstream poinio-borges plinio-borges dast
+  441  ls
+  442  cd ..
+  443  ls
+  444  cd vulnapp/
+  445  ls
+  446  cd ..
+  447  ls
+  448  cd app
+  449  ls
+  450  cd ..
+  451  cd vulnapp/
+  452  l
+  453  ls
+  454  git init
+  455  ls -la
+  456  git status 
+  457  git clean
+  458  git clean -f
+  459  git status
+  460  ls
+  461  git init
+  462  git branch -M dast
+  463  git status
+  464  git add .
+  465  git commit -m "criado app vuln para dast + arquivos"
+  466  git remote -v
+  467  git push
+  468  git remote add origin https://github.com/plinio-borges/appvuln.git
+  469  git push -u origin dast
+  470  mkdir .github/
+  471  cd .github/
+  472  mkdir workflows
+  473  cd workflows/
+  474  nano dast.yml
+  475  cd ../..
+  476  git status
+  477  git add .
+  478  git commit -m ".github/"
+  479  git push origin dast
+  480  ls
+  481  cd app
+  482  ls
+  483  cd ..
+  484  ls
+  485  cd vulnapp/
+  486  ls
+  487  cd app
+  488  ls
+  489  cd ..
+  490  ls
+  491  cd ..
+  492  ls
+  493  cd app
+  494  ls
+  495  cd ..
+  496  ls
+  497  cd vulnapp/
+  498  ls
+  499  cd app
+  500  ls
+  501  cd backup/
+  502  ls
+  503  cd ..
+  504  cd ap
+  505  cd app
+  506  ls
+  507  cd ..
+  508  ls
+  509  cd ap
+  510  cd app
+  511  ls
+  512  cd ..
+  513  ls
+  514  cd vulnapp/
+  515  ls
+  516  cd app
+  517  ls
+  518  cd ..
+  519  ls
+  520  cat Dockerfile 
+  521  cd .github/workflows/
+  522  ls
+  523  nano dast.yml 
+  524  cd ..
+  525  cd //
+  526  cd /
+  527  cd
+  528  cd projetos/
+  529  cd vulnapp/
+  530  ls
+  531  git status
+  532  git add .
+  533  git commit -m "alteraçao dast.yml"
+  534  git push
+  535  ls
+  536  cd vene
+  537  cd venv
+  538  ls
+  539  cd ..
+  540  cd .venv
+  541  ls
+  542  ls -lah
+  543  whoami
+  544  cd projetos/
+  545  cd vulnapp/
+  546  ls
+  547  ls -lah
+  548  cd app
+  549  ls
+  550  cd ..
+  551  ls
+  552  cd app
+  553  ls
+  554  ls -lah
+  555  cat .env
+  556  cd ..
+  557  ls
+  558  cd ..
+  559  ls
+  560  cd app
+  561  ls
+  562  cd ..
+  563  cd vulnapp/
+  564  ls
+  565  cat Dockerfile 
+  566  ls -lah
+  567  cd .github
+  568  ls
+  569  cd workflows/
+  570  ls
+  571  cd ../../..
+  572  ls
+  573  cd pythonprj/
+  574  ls -lah
+  575  ls -l
+  576  cd ..
+  577  ls
+  578  cd vulnapp/
+  579  ls
+  580  cd app
+  581  ls
+  582  cd backup/
+  583  ls
+  584  ls -lah
+  585  cat database.sql 
+  586  nikto
+  587  snap
+  588  flatpal
+  589  flatpak
+  590  nin
+  591  pip
+  592  namespaces
+  593  cgroups
+  594  docker --version
+  595  id admin
+  596  podman --version
+  597  podman
+  598  id admin
+  599  docker image ls
+  600  docker image rm -f bkimminich/juice-shop:latest
+  601  docker image ls
+  602  docker image pull ubuntu:resolute
+  603  docker image ls
+  604  docker image inspect ubuntu:resolute 
+  605  docker container run -it --name webserver ubuntu:resolute /bin/bash
+  606  docker container ps
+  607  docker conteiner attach webserver
+  608  docker container attach webserver 
+  609  docker container ps
+  610  docker container exec webserver cat /etc/os-release
+  611  docker container exec webserver mkdir /root/caixa
+  612  docker container exec webserver ls /root
+  613  docker container stop webserver 
+  614  docker container ps
+  615  docker container prune
+  616  docker container ps
+  617  docker container run -itd -p80:80 --name site nginx
+  618  history
+  619  sudo su -
+  620  docker container exec -it mysql-lab mysql -u labuser -p labdb
+  621  sudo -su -
+  622  sudo su 
+  623  sudo su -
+  624  df -hT
+  625  ls
+  626  pwd
+  627  sudo su -
+  628  docker image ls
+  629  cd projetos/
+  630  cd appvuln/
+  631  cat Dockerfile
+  632  ls
+  633  pwd
+  634  cd ..
+  635  ls
+  636  mkdir app
+  637  ls
+  638  cd app
+  639  ls
+  640  ls -la
+  641  nano app.py
+  642  nano requirements.txt
+  643  mkdir db
+  644  cat requirements.txt 
+  645  cat app.py 
+  646  ks
+  647  ls
+  648  cd db
+  649  nano init.sql
+  650  cd ..
+  651  cat ./init/sql
+  652  cat ./db/init.sql 
+  653  pwd
+  654  nano Dockerfile
+  655  cat Dockerfile 
+  656  ls requirements.txt 
+  657  cat requirements.txt 
+  658  nano DockerfileM
+  659  cat DockerfileM
+  660  nano DockerfileM
+  661  nano .dockerignore
+  662  cd projetos/app
+  663  ls
+  664  nano .dockerignore
+  665  nano .gitignore
+  666  cat .gitignore 
+  667  ls -la
+  668  nano DockerfileM
+  669  docker build -f DockerfileM -t pix-consulta:1.0.0 .
+  670  ls
+  671  ls -la
+  672  cat .dockerignore.save 
+  673  cat .dockerignore
+  674  rm .dockerignore.save 
+  675  docker build -t pix-consulta-bad:1.0.0 .
+  676  nano Dockerfile
+  677  docker build -t pix-consulta-bad:1.0.0 .
+  678  nano Dockerfile
+  679  docker build -t pix-consulta-bad:1.0.0 .
+  680  nano Dockerfile
+  681  nano requirements.txt 
+  682  docker build -t pix-consulta-bad:1.0.0 .
+  683  ls
+  684  ls -lah
+  685  docker image ls
+  686  docker run --rm -i hadolint/hadolint:v2.12.0 < DockerfileM
+  687  sudo nano /etc/docker/daemon.json
+  688  sudo systemctl restart docker
+  689  sudo nano /etc/docker/daemon.json
+  690  sudo systemctl restart docker
+  691  sudo nano /etc/docker/daemon.json
+  692  sudo systemctl restart docker
+  693  docker run --rm -i hadolint/hadolint:v2.12.0 < DockerfileM
+  694  docker run --rm -i hadolint/hadolint:v2.12.0 < Dockerfile
+  695  ls
+  696  ls -la
+  697  docker image ls
+  698  trivy image --severity HIGH,CRITICAL pix-consulta:1.0.0 | tail -30
+  699  trivy image --severity HIGH,CRITICAL pix-consulta:1.0.0 | head -50
+  700  docker run --rm -v $(pwd):/src -w /src bridgecrew/checkov:3 -d . --framework dockerfile --compact
+  701  docker run --rm -v $(pwd):/src -w /src bridgecrew/checkov:3 -d . --framework dockerfile --file "DockerfileM" --compact
+  702  docker run --rm -v $(pwd):/src -w /src bridgecrew/checkov:3 -d . --framework dockerfile --file 'Dockerfile' --compact
+  703  ls -al
+  704  mv Dockerfile Dockerfile
+  705  mv DockerfileM Dockerfile
+  706  ls
+  707  ls -la
+  708  docker run --rm -v $(pwd):/src -w /src bridgecrew/checkov:3 -d . --framework dockerfile --file 'Dockerfile' --compact
+  709  mv Dockerfile DockerfileM
+  710  mv DockerfileR Dockerfile
+  711  docker run --rm -v $(pwd):/src -w /src bridgecrew/checkov:3 -d . --framework dockerfile --file 'Dockerfile' --compact
+  712  sudo apt install minikube
+  713  ls
+  714  pwd
+  715  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  716  ls
+  717  ls -lah
+  718  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+  719  kubectl sersion --client
+  720  kubectl version --client
+  721  rm kubectl 
+  722  kubectl version --client
+  723  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  724  ls
+  725  sudo install minikube /usr/local/bin/minikube
+  726  minikube version
+  727  rm minikube 
+  728  free -h
+  729  ls cpu
+  730  lscpu
+  731  lscpu | grep CPU
+  732  minikube start --driver=docker --cpu=1 --memory=2048
+  733  minikube start --driver=docker --cpus=2 --memory=2048
+  734  sudo mv /etc/docker/daemon.json /root/
+  735  sudo systemctl restart docker
+  736  minikube start --driver=docker --cpus=2 --memory=2048
+  737  minikube delete --all 
+  738  minikube start --driver=docker --cpus=2 --memory=2048
+  739  kubectl cluster-info
+  740  kubectl get nodes
+  741  kubectl get pods -A
+  742  minikube addons enable metrics-server
+  743  minikube addons enable ingress
+  744  kubectl top nodes
+  745  minikube dashboard --url
+  746  kubectl create secret generic cofre --from-literal=senha=Pix-Super-Secreta
+  747  ss -atun | 2379
+  748  ss -atun | grep 2379
+  749  minikube addons list
+  750  wget http://72.44.45.184/projeto-exemplo.zip
+  751  ls -l
+  752  unzip projeto-exemplo.zip 
+  753  ls
+  754  cd projeto
+  755  cd projetos
+  756  pwd
+  757  mkdir -p lab-k8s && cd lab-k8s
+  758  mv ../../projeto-exemplo.zip .
+  759  ls -l
+  760  mv ../../projeto-exemplo .
+  761  ls
+  762  cd projeto-exemplo/
+  763  ls
+  764  ls -la
+  765  cat Dockerfile 
+  766  docker build -t simulador-cartoes:1.0 .
+  767  docker image ls
+  768  docker tag simulador-cartoes:1.0 simulador-cartoes:latest
+  769  minikube image ls | grep cart
+  770  minikube image load simulador-cartoes:latest
+  771  minikube image ls | grep cart
+  772  minikube image ls
+  773  minikube image load simulador-cartoes:1.0
+  774  minikube image ls | grep cart
+  775  ls
+  776  cd k8s/
+  777  ls
+  778  cat 00-namespace.yaml 
+  779  kubectl apply -f 00-namespace.yaml
+  780  cat 01-vulneravel.yaml 
+  781  kubectl apply -f 01-vulneravel.yaml
+  782  kubectl get all -n cartoes 
+  783  kubectl get pods -n cartoes -o wide
+  784  ss -atun
+  785  ss -atunp
+  786  nano 01-vulneravel.yaml 
+  787  sudo poweroff
+  788  ls
+  789  cd projetos
+  790  ls
+  791  cd vulnapp
+  792  ls
+  793  cd app
+  794  ls
+  795  cd backup/
+  796  ls
+  797  cd ../..
+  798  ls
+  799  ls -l
+  800  cd ..
+  801  ls
+  802  cd lab-k8s/
+  803  ls
+  804  cd projeto-exemplo/
+  805  ls
+  806  pwd
+  807  ls -l
+  808  docker image ls
+  809  cd k8s/
+  810  ls -l
+  811  cat 00-namespace.yaml 
+  812  nano 01-vulneravel.yaml 
+  813  ls
+  814  cat 00
+  815  cat 00-namespace.yaml 
+  816  kubectl get all -n
+  817  kubectl get all -n cartoes
+  818  minikube start --driver=docker --cpus=2 --memory=2048
+  819  kubectl get all -n cartoes
+  820  kubectl get pods -n cartoes -o wide
+  821  kubectl auth can-i delete namespaces --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  822  kubectl auth can-i namespaces --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  823  kubectl auth can-i --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  824  kubectl auth can-i --list --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  825  kubectl auth can-i --list --as=system:serviceaccount:cartoes:simulador-cartoes-sa -n system
+  826  nano 02-rbac-corrigido.yaml 
+  827  service --status all
+  828  service --status-all
+  829  nano 02-rbac-corrigido.yaml 
+  830  kubectl apply -f 02-rbac-corrigido.yaml 
+  831  cat 02-rbac-corrigido.yaml 
+  832  kubectl auth can-i delete namespaces --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  833  kubectl delete clusterrolebinding simulador-cartoes-binding
+  834  kubectl auth can-i delete namespaces --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  835  kubectl auth can-i get pods -n cartoes --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  836  kubectl auth can-i delete pods -n cartoes  --as=system:serviceaccount:cartoes:simulador-cartoes-sa 
+  837  cat 02
+  838  cat 02-rbac-corrigido.yaml 
+  839  kubectl auth can-i list pods -n cartoes --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  840  kubectl auth can-i --list --as=system:serviceaccount:cartoes:simulador-cartoes-sa -n system
+  841  kubectl auth can-i --list --as=system:serviceaccount:cartoes:simulador-cartoes-sa -n cartoes
+  842  nano 01-vulneravel.yaml 
+  843  kubectl runteste-livre --image=busybox:1.36 -n cartoes --rm -it --restart=Never --wget -qO- --timeout=3 http://simulador-cartoes/saude
+  844  kubectl run teste-livre --image=busybox:1.36 -n cartoes --rm -it --restart=Never --wget -qO- --timeout=3 http://simulador-cartoes/saude
+  845  kubectl run teste-livre --image=busybox:1.36 -n cartoes --rm -it --restart=Never   -- wget -qO- --timeout=3 <a href="http://simulador-cartoes/saude" rel="noreferrer noopener" title="http://simulador-cartoes/saude" target="_blank">http://simulador-cartoes/saude</a>
+  846  kubectl run teste-livre --image=busybox:1.36 -n cartoes --rm -it --restart=Never   -- wget -qO- --timeout=3 http://simulador-cartoes/saude
+  847  nano 03-networkpolicy-default-deny.yaml 
+  848  kubectl apply -f 03-networkpolicy-default-deny.yaml 
+  849  kubectl run teste-livre --image=busybox:1.36 -n cartoes --rm -it --restart=Never   -- wget -qO- --timeout=3 http://simulador-cartoes/saude
+  850  kubectl auth can-i list pods -n cartoes --as=system:serviceaccount:cartoes:simulador-cartoes-sa
+  851  kubectl auth can-i --list --as=system:serviceaccount:cartoes:simulador-cartoes-sa -n cartoes
+  852  nano 04-networkpolicy-allow-dns.yaml 
+  853  kubectl apply -f 04-networkpolicy-allow-dns.yaml 
+  854  kubectl run teste-dns --image=busybox:1.36 -n cartoes --rm -it --restart=Never   -- wget -qO- --timeout=3 http://simulador-cartoes/saude
+  855  nano 05-networkpolicy-allow-gateway.yaml 
+  856  kubectl apply -f 05-networkpolicy-allow-gateway.yaml 
+  857  kubectl run teste-dns --image=busybox:1.36 -n cartoes --rm -it --restart=Never   -- wget -qO- --timeout=3 http://simulador-cartoes/saude
+  858  kubectl apply -f 07-deployment-hardened.yaml 
+  859  kubectl exec -n cartoes deploy/simulador-cartoes -- id
+  860  kubectl apply -f 07-deployment-hardened.yaml 
+  861  kubectlget pods -n cartoes
+  862  kubectl get pods -n cartoes
+  863  kubectl delete deployment simulador-cartoes -n cartoes
+  864  kubectl get pods -n cartoes
+  865  nano 07-deployment-hardened.yaml 
+  866  kubectl apply -f 07-deployment-hardened.yaml 
+  867  kubectl get pods -n cartoes
+  868  kubectl delete deployment simulador-cartoes -n cartoes
+  869  kubectl get pods -n cartoes
+  870  kubectl apply -f 07-deployment-hardened.yaml
+  871  kubectl get pods -n cartoes
+  872  kubectl exec -n cartoes deploy/simulador-cartoes -- id
+  873  kubectl delete deployment simulador-cartoes -n cartoes
+  874  kubectl apply -f 06-secret-corrigido.yaml 
+  875  kubectl delete deployment simulador-cartoes -n cartoes
+  876  kubectl apply -f 07-deployment-hardened.yaml 
+  877  kubectl get pods -n cartoes
+  878  kubectl exec -n cartoes deploy/simulador-cartoes -- id
+  879  cat 06-secret-corrigido.yaml 
+  880  nano decrypt_64.py
+  881  python3 decrypt_64.py 
+  882  nano decrypt_64-2.py
+  883  python3 decrypt_64-2.py 
+  884  cd ..
+  885  git status
+  886  git init
+  887  ls
+  888  history
+  889  history > history.txt
+  890  cat history.txt 
+  891  ls
+  892  la -la
+  893  ls -la
+  894  gh auth login
+  895  cd ..
+  896  git status
+  897  ls
+  898  cd pythonprj/
+  899  ls
+  900  cd ..
+  901  cd..
+  902  cd ..
+  903  ls
+  904  ls -lah
+  905  cd .gi
+  906  cat .gitconfig 
+  907  cd .config/
+  908  ls
+  909  ls -la
+  910  cd gh
+  911  ls
+  912  cat config.yml 
+  913  cd ..
+  914  ls
+  915  cd go
+  916  ls
+  917  ls -lah
+  918  cd telemetry/
+  919  ls
+  920  cd local/
+  921  ls
+  922  cat upload.token 
+  923  ls
+  924  cd ..
+  925  ls
+  926  cd upload/
+  927  ls
+  928  ls -lah
+  929  cd ..
+  930  ls
+  931  ls -lah
+  932  cd ..
+  933  ls
+  934  cd ..
+  935  ls
+  936  ls -lah
+  937  cd ..
+  938  ls
+  939  ls -lah
+  940  cd projetos/
+  941  ls
+  942  cd vulnapp
+  943  la
+  944  la -al
+  945  ls -la
+  946  cd .git
+  947  ls
+  948  cat congi
+  949  cat config 
+  950  cd  ..
+  951  ls
+  952  ls -lha
+  953  cd .github
+  954  ls
+  955  ls -alh
+  956  cd workflows/
+  957  ls
+  958  cat dast.yml 
+  959  cd ..
+  960  ls
+  961  cd ..
+  962  ls -alh
+  963  cd ..
+  964  ls
+  965  cd pythonprj/
+  966  ls
+  967  ls -alh
+  968  cd .git/
+  969  ls
+  970  cat config
+  971  cd ..
+  972  ls
+  973  cd ..
+  974  cd app
+  975  ls
+  976  ls -alh
+  977  cat .dockerignore 
+  978  cd db
+  979  ls
+  980  cat init.sql 
+  981  cd ..
+  982  ls
+  983  cd ..
+  984  ls
+  985  cd appvuln/
+  986  ls
+  987  cd ..
+  988  ls
+  989  cd lab-k8s/
+  990  ls
+  991  history > history.txt 
