@@ -791,3 +791,31 @@
   791  cd lab-k8s/
   792  ls
   793  history > history.txt 
+  794  git status
+  795  git add .
+  796  git commit -m "Mudança no history.txt"
+  797  git push
+  798  git status
+  799  cd ..
+  800  ls
+  801  mv app.zip ~/projetos/appvuln
+  802  cd appvuln/
+  803  ls
+  804  git status 
+  805  git add .
+  806  git commit "Dockerfile Dockerfilsec app.zip trivy.result.sarif e update de .gitignore"
+  807  git commit -m "Dockerfile Dockerfilsec app.zip trivy.result.sarif e update de .gitignore"
+  808  git push
+  809  git push origin HEAD
+  810  git pull
+  811  git push origin HEAD
+  812  ls
+  813  git add .
+  814  git commit -m "Dockerfile Dockerfilsec app.zip trivy.result.sarif e update de .gitignore"
+  815  git push
+  816  git push origin HEAD:dast
+  817  git push origin HEAD:main
+  818  cd ..
+  819  cd lab-k8s/
+  820  ls
+  821  history > history.txt 
